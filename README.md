@@ -28,9 +28,13 @@ This is the *frontend* of the AI-powered Fashion Chatbot built using *Streamlit*
 
 fashion-chatbot-frontend/
 ├── app.py                 # Main Streamlit UI app
+
 ├── requirements.txt       # Python dependencies
+
 ├── README.md              # Documentation
+
 ├── .gitignore             # Git ignore rules
+
 └── images/                # (Optional) static assets like logos
 
 
