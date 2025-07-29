@@ -5,7 +5,7 @@ import json
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Fashion AI",
+    page_title="Sumit AI",
     page_icon="✨",
     layout="centered",
     initial_sidebar_state="collapsed"
