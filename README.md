@@ -24,9 +24,8 @@ This is the *frontend* of the AI-powered Fashion Chatbot built using *Streamlit*
 ---
 
 ## 📁 Folder Structure
-
-
 fashion-chatbot-frontend/
+
 ├── app.py                 # Main Streamlit UI app
 
 ├── requirements.txt       # Python dependencies
