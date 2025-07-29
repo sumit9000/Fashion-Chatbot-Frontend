@@ -1,99 +1,112 @@
-# 🖼 Fashion Chatbot UI (Frontend)
+# 👗 Fashion Chatbot Frontend (Streamlit)
 
-This repository contains the *Streamlit-based frontend* for the Fashion Chatbot. It allows users to interact with the chatbot through a clean web interface and receive fashion advice in real-time.
+This is the *frontend* of the AI-powered Fashion Chatbot built using *Streamlit*. It provides an elegant interface for users to ask fashion-related questions and receive smart, AI-generated responses from the backend API.
 
 ---
 
-## 💡 Features
+## 🚀 Features
 
-- Interactive UI built with Streamlit
-- Connects to FastAPI backend for chat responses
-- Real-time fashion recommendations
-- Responsive layout and easy-to-use design
+* Beautiful UI with custom CSS styling
+* Chat interface with assistant/user bubbles
+* Predefined suggestions (buttons) for quick questions
+* Real-time API communication with the backend
+* Styled with light backgrounds and soft shadows for modern aesthetics
+
+---
+
+## 🛠 Tech Stack
+
+* *Frontend Framework*: Streamlit
+* *Language*: Python
+* *Backend API*: FastAPI (hosted separately on Render)
+* *Deployment*: Streamlit + Render
 
 ---
 
 ## 📁 Folder Structure
 
 
-frontend/
-├── app.py                     # Streamlit app
-├── requirements.txt           # Dependencies
-└── .streamlit/
-    └── secrets.toml           # API URL config
+fashion-chatbot-frontend/
+├── app.py                 # Main Streamlit UI app
+├── requirements.txt       # Python dependencies
+├── README.md              # Documentation
+├── .gitignore             # Git ignore rules
+└── images/                # (Optional) static assets like logos
 
 
 ---
 
-## 🔧 Installation
+## ⚙ Setup Instructions
 
-1. Clone the repository:
+### 1. Clone the Repository
 
 bash
-git clone https://github.com/your-username/fashion-chatbot-frontend.git
+git clone https://github.com/sumit9000/fashion-chatbot-frontend.git
 cd fashion-chatbot-frontend
 
 
-2. Install required packages:
+### 2. Install Dependencies
 
 bash
 pip install -r requirements.txt
 
 
----
+### 3. Connect to Backend API
 
-## 🔐 Configuration
+Edit the API_URL in app.py:
 
-Create a file .streamlit/secrets.toml with the following content:
-
-toml
-api_url = "https://your-backend.onrender.com"
+python
+API_URL = "https://fashion-chatbot-backend.onrender.com/chat"
 
 
-Replace the URL with your actual FastAPI backend URL.
+> ✅ Ensure your backend API is live and accepting POST requests.
 
 ---
 
-## ▶ Run Locally
+## ▶ Run the App
 
 bash
 streamlit run app.py
 
 
-Open in browser:  
-🔗 http://localhost:8501
+The app will open in your browser at http://localhost:8501.
 
 ---
 
-## 🌍 Deploy on Render
+## 🌐 Deployment on Render (Frontend)
 
-1. Push the frontend folder to GitHub.
-2. Create a *Web Service* on [Render](https://render.com).
-3. Set the *Start Command*:
+1. Push this repo to GitHub.
+2. Go to [https://render.com](https://render.com) → New → Web Service.
+3. Select *Python* → Add your repo.
+4. Use:
 
-bash
-streamlit run app.py --server.port 10000 --server.address 0.0.0.0
-
-
-4. Add a *Secret File*:
-    - File name: .streamlit/secrets.toml
-    - Content:
-
-toml
-api_url = "https://your-backend.onrender.com"
-
+   * *Start Command*: streamlit run app.py
+   * *Build Command*: pip install -r requirements.txt
+5. Add environment variable if needed: API_URL (optional if hardcoded).
 
 ---
 
-## 📸 UI Preview
+## 💬 Sample Questions to Ask
 
-> (Optional) Add a screenshot here of the chatbot interface  
-> ![UI Screenshot](link-to-screenshot)
+* "What are the trends for summer?"
+* "Suggest an outfit for a casual day."
+* "Help me find a dress for a wedding."
+* "What goes with a blue suit?"
+
+---
+
+## 📸 Screenshot
+
+> You can include a screenshot of your deployed Streamlit app here.
 
 ---
 
 ## 📬 Contact
 
-Made with ❤ by [Your Name]  
-📧 [your-email@example.com](mailto:your-email@example.com)  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+Built by [Sumit Kumar](https://www.linkedin.com/in/sumitkumarss/)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
