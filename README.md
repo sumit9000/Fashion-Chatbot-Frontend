@@ -1,10 +1,10 @@
-# 👗 Fashion Chatbot Frontend (Streamlit)
+# Fashion Chatbot Frontend (Streamlit)
 
 This is the *frontend* of the AI-powered Fashion Chatbot built using *Streamlit*. It provides an elegant interface for users to ask fashion-related questions and receive smart, AI-generated responses from the backend API.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Beautiful UI with custom CSS styling
 * Chat interface with assistant/user bubbles
@@ -14,7 +14,7 @@ This is the *frontend* of the AI-powered Fashion Chatbot built using *Streamlit*
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * *Frontend Framework*: Streamlit
 * *Language*: Python
@@ -89,7 +89,7 @@ The app will open in your browser at http://localhost:8501.
 
 ---
 
-## 💬 Sample Questions to Ask
+##  Sample Questions to Ask
 
 * "What are the trends for summer?"
 * "Suggest an outfit for a casual day."
