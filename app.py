@@ -1,4 +1,4 @@
-# app.py - Fixed version
+# Frontend.py - Fixed version
 # Streamlit Frontend for Fashion Chatbot
 
 import streamlit as st
@@ -454,4 +454,3 @@ st.markdown('''
     ✨ Thank you for using the Fashion AI Stylist! Stay amazing, stay stylish! ✨
 </div>
 ''', unsafe_allow_html=True)
-
