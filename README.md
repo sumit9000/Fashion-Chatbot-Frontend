@@ -23,21 +23,6 @@ This is the *frontend* of the AI-powered Fashion Chatbot built using *Streamlit*
 
 ---
 
-## 📁 Folder Structure
-fashion-chatbot-frontend/
-
-├── app.py                 # Main Streamlit UI app
-
-├── requirements.txt       # Python dependencies
-
-├── README.md              # Documentation
-
-├── .gitignore             # Git ignore rules
-
-└── images/                # (Optional) static assets like logos
-
-
----
 
 ## ⚙ Setup Instructions
 
@@ -59,7 +44,7 @@ pip install -r requirements.txt
 Edit the API_URL in app.py:
 
 python
-API_URL = "https://fashion-chatbot-backend.onrender.com/chat"
+API_URL = " "
 
 
 > ✅ Ensure your backend API is live and accepting POST requests.
