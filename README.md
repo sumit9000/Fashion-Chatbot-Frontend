@@ -85,7 +85,8 @@ The app will open in your browser at http://localhost:8501.
 
 ## 📸 Screenshot
 
-> <img width="1902" height="697" alt="image" src="https://github.com/user-attachments/assets/6551b6b3-7eb3-40c0-9bd0-52483115c4e7" />
+> <img width="1918" height="832" alt="image" src="https://github.com/user-attachments/assets/cca3420f-e98f-4141-9063-804e187a544c" />
+
 
 
 ---
