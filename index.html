@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogue Assist Chatbot - Your Personal Style Assistant</title>
+    
+    <!-- Add your favicon here -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Alternative formats for better browser support -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <body>
+    <body>
+    <!-- ReactBits.dev Exact Background System -->
+    <div class="background-container">
+        <div class="background-gradient"></div>
+        <div class="background-grid"></div>
+        <div class="background-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Your existing content here -->
+
+
+    <div class="container">
+        <!-- Header -->
+            <header class="header">
+    <div class="glass-texture"></div>
+    <div class="header-content">
+        <img src="vogue-logo.png" alt="VOGUE Fashion Store Logo" class="logo-image">
+        <div class="header-text">
+            <h1 class="main-heading">Ask our Fashion AI anything</h1>
+            <p class="tagline">Vogue Assist Chatbot - Your Personal Style Assistant</p>
+        </div>
+    </div>
+</header>
+
+
+        <!-- Quick Suggestions -->
+        <div class="suggestions-section">
+            <h3>💡 Quick Suggestions</h3>
+            <div class="suggestions-grid">
+                <button class="suggestion-btn" onclick="selectSuggestion('Help me find an outfit for a job interview')">
+                    Job Interview Outfit
+                </button>
+                <button class="suggestion-btn" onclick="selectSuggestion('Suggest outfits for a beach vacation')">
+                    Beach Vacation
+                </button>
+                <button class="suggestion-btn" onclick="selectSuggestion('Recommend shoes for a summer wedding')">
+                    Summer Wedding Shoes
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Chat Container -->
+        <div class="chat-container" id="chatContainer">
+            <div class="welcome-message">
+                <div class="assistant-message">
+                    <div class="message-content">
+✨Hey there! Let's make your shopping experience easy and fun. Where shall we start?
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <div class="input-container">
+                <div class="file-upload-container">
+                    <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                    <button class="file-upload-btn" onclick="document.getElementById('imageInput').click()" title="Upload Image">
+                        <i class="fas fa-camera"></i>
+                    </button>
+                </div>
+                
+                <input type="text" id="messageInput" placeholder="Ask me anything about fashion..." class="message-input">
+                
+                <button class="send-btn" onclick="sendMessage()" title="Send Message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            
+            <!-- Image Preview -->
+            <div id="imagePreview" class="image-preview" style="display: none;">
+                <img id="previewImg" src="" alt="Preview">
+                <button class="remove-image" onclick="removeImage()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Status Indicator -->
+        <div class="status-indicator" id="statusIndicator">
+            <span class="status-dot"></span>
+            <span id="statusText">Connecting...</span>
+        </div>
+    </div>
+
+    <!-- Loading Modal -->
+    <div class="loading-modal" id="loadingModal" style="display: none;">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <p>ðŸ¤” Let me think about that...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
